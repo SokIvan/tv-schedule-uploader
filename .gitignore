@@ -1,0 +1,22 @@
+# Виртуальное окружение — его в репозиторий не кладём
+.venv/
+venv/
+env/
+
+# Артефакты сборки PyInstaller
+build/
+dist/
+*.spec
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Служебные файлы IDE
+.vscode/
+.idea/
+
+# Прочее
+.DS_Store
+Thumbs.db
